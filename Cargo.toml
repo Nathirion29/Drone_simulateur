@@ -1,0 +1,13 @@
+[package]
+name = "drone_sim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nalgebra    = "0.32"      # algèbre linéaire
+plotters    = { version = "0.3", features = ["svg_backend"] }  # graphiques (optionnel)
+csv         = "1.1"       # export CSV
+chrono      = "0.4"       # gestion des timestamps
+
+[dev-dependencies]
+criterion = "0.4"
